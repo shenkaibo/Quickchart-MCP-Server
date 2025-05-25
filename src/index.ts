@@ -10,7 +10,7 @@ import {
 import axios from 'axios';
 import getenv from 'getenv';
 
-const QUICKCHART_BASE_URL = getenv('QUICKCHART_BASE_URL', 'https://quickchart.io/chart');
+const QUICKCHART_BASE_URL = getenv('QUICKCHART_BASE_URL', 'http://10.1.13.xxx:3400/chart'');
 
 interface ChartConfig {
   type: string;
